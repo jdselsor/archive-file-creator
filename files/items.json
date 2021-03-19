@@ -1,0 +1,29 @@
+{
+    "items" : {
+        "sword_of_debugging" : {
+            "item_id" : "0x1",
+            "item_name" : "Sword of Debugging",
+            "item_description" : "Use this blade to destroy the vial bugs in the source.",
+            "item_image" : "./images/items/sword_of_debugging.png",
+            "effects" : {
+                "effect_1" : {
+                    "effect_id" : "0xff00",
+                    "effect_damage" : 10,
+                    "effect_aoe" : 2.0
+                }
+            }
+        },
+        "goblet_of_posion" : {
+            "item_id" : "0x2",
+            "item_name" : "Goblet of Posion",
+            "item_description" : "Just a goblet of posion.",
+            "item_image" : "./images/items/goblet_of_posion.png",
+            "effects" : {
+                "effect_1" : {
+                    "effect_id" : "0xff01",
+                    "effect_target" : "self"
+                }
+            }
+        }
+    }
+}
